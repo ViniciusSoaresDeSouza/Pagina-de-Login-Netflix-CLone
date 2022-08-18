@@ -1,0 +1,119 @@
+body{
+    background-image: url("img/background.jpg");
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body::before{
+    content:" ";
+    background-color: rgb(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.header{
+    padding: 20px 50px;
+    z-index: 10;
+}
+
+.box{
+    
+    padding: 60px;
+    z-index: 90;
+    position: relative;
+    max-width: 450px;
+    height: 550px;
+    margin-left: 50%;
+    background-color: rgb(0,0,0,.75);
+    border-radius: 10px;
+    box-sizing: border-box;
+    transform: translate(-50%);
+}
+h1{
+    color: white;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+
+.box input{
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.box input:hover{
+    background-color: #444;
+}
+
+.formulario input{
+    margin-bottom: 15px;
+}
+
+.box button{
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    border-radius: 3px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.box button:hover{
+    background-color: #fc1722;
+    cursor: pointer;
+
+}
+
+#caixa{
+    display: flex;
+    color: #b3b3b3;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+#caixa input{
+    width: 15px;
+    height: 15px;
+}
+
+.LoginFace{
+    align-items: center;
+    display: flex;
+   width: 100%;
+   color: #737373;
+}
+.LoginFace span {
+    margin-right: 5px;
+    font-size: 13px;
+} 
+.LoginFace span a{
+    text-decoration: none;
+    color: #737373;
+}
+
+.novamente{
+    
+    color: #737373;
+}
+
+.novamente span a{
+    text-decoration: none;
+    color: #b3b3b3;
+}
